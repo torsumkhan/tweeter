@@ -1,0 +1,15 @@
+header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/cork-board.png");
+}
+
+header h2 {
+  margin-top: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+}
