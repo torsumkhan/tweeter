@@ -1,0 +1,30 @@
+.new-tweet button {
+  font-family: bungee;
+  background-color: #4056a1;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+}
+
+.counter {
+  font-family: bungee;
+}
+
+#tweet-text {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 3px solid;
+}
+
+.tweet-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+
+textarea::placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #545149;
+}

@@ -30,6 +30,9 @@ main {
   flex-direction: column;
 }
 
+textarea {
+  resize: vertical;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
