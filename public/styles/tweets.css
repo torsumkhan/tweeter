@@ -1,0 +1,58 @@
+.tweets-section {
+  border: 0.2rem solid #545149;
+  padding: 1.8rem;
+}
+
+.tweets-section:hover {
+  box-shadow: 9px 7px 21px -3px rgba(64, 86, 161, 0.24);
+}
+
+.astro {
+  color: aqua;
+}
+
+.tweets-icon-name {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.tweets-section span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.user-handle {
+  margin-left: auto;
+  opacity: 30%;
+}
+
+.tweets-icon-name p {
+  font-weight: 600;
+}
+
+.icons-tweet {
+  height: 1.2rem;
+}
+
+.icons-tweet:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.retweet-section {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 0;
+}
+
+.timeline {
+  margin-right: auto;
+}
+
+.tweet-text {
+  font-weight: 600;
+  border-bottom: 3px solid #545149;
+  padding-bottom: 1.8rem;
+  margin-bottom: 0.8rem;
+}

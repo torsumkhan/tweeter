@@ -33,6 +33,10 @@ main {
 textarea {
   resize: vertical;
 }
+
+section {
+  margin: 1.8rem;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
