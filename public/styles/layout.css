@@ -23,6 +23,16 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main-header {
+  margin-top: 120px;
+}
+
 main {
   width: 90%;
   margin: 0 auto 0 auto;

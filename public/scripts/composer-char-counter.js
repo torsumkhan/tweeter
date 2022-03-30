@@ -6,5 +6,8 @@ $(document).ready(function () {
     if (textLen < 0) {
       $(".counter").css("color", "red");
     }
+    if (textLen > 0) {
+      $(".counter").css("color", "#545149");
+    }
   });
 });
