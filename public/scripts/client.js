@@ -43,7 +43,7 @@ $(document).ready(function () {
     </header>
     <footer>
       <div class="retweet-section">
-        <span class="timeline">${data.created_at}</span>
+        <span class="timeline">${timeago.format(data.created_at)}</span>
         <i class="fa-solid fa-flag fa-2xs icons-tweet"></i>
         <i class="fa-solid fa-retweet fa-2xs icons-tweet"></i>
         <i class="fa-solid fa-heart fa-2xs icons-tweet"></i>
@@ -65,8 +65,21 @@ $(document).ready(function () {
   $("#tweet-form").on("submit", (evt) => {
     alert("event called");
     evt.preventDefault();
+    console.log("This is the target", evt.target);
 
     const tweet = $(evt.target).serialize();
     $.post("/tweets/", tweet, function (data) {});
   });
+
+  const loadTweets = function () {
+    $.ajax({
+      type: "GET",
+      url: "/tweets",
+      dataType: "json",
+      success: function (response) {
+        renderTweets(response);
+      },
+    });
+  };
+  loadTweets();
 });
