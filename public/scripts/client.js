@@ -70,7 +70,6 @@ $(document).ready(function () {
     $(".error-box").hide();
 
     const formInput = $("#tweet-text").val();
-    console.log(formInput);
     if (!formInput.trim()) {
       $(".error-box").text("Please enter your text");
       $(".error-box").slideDown();
