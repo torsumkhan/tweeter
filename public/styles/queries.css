@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+    .main-header{
+        width: 33.3%;
+        float: left;
+    
+    }
+
+    .container {
+        width: 65%;
+        float: right;
+        margin-top: 15rem;
+        padding-top: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-header{
+        margin-top: 15rem;
+        width: 30%;
+        float:left;
+        margin-left: 2rem;
+        height: auto;
+    }
+
+    section{
+        margin-top: 0
+    }
+    .image-container img{
+        margin: auto;
+        display: block;
+    }
+
+    .new-tweet{
+        width: 80%;
+        margin: auto;
+    }
+
+    .tweet-container{
+        width: 80%;
+        margin-top: 3.6rem;
+    }
+
+    nav{
+        background-color: #4056a1;
+    }
+
+    .image-container img {
+        margin-top: 1.8rem
+    }
+}
+

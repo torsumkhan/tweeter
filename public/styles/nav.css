@@ -2,18 +2,15 @@ nav {
   font-family: "Bungee", cursive;
   height: 120px;
   width: 100%;
-  background-color: #4056a1;
+  background-color: transparent;
   color: #ffffff;
-  padding: 1.5em;
+  padding: 1.5em 4.2rem;
   display: flex;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 1;
 }
 
-.icon {
-  width: 3.2rem;
-  height: 3.2rem;
-  display: block;
+.arrow-icon {
   color: red;
 }
 
@@ -23,6 +20,12 @@ nav {
   align-items: center;
 }
 
-.new-tweet {
+.write-new-tweet {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.compose-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
