@@ -47,6 +47,17 @@ textarea {
 section {
   margin: 1.8rem;
 }
+
+.error-box {
+  background-color: #ffbaba;
+  border: 1px solid;
+  margin: 1rem 1.8rem;
+  padding: 10px 8px 10px 20px;
+  display: none;
+  color: red;
+  font-weight: 600;
+  text-align: center;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

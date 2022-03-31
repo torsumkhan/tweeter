@@ -67,19 +67,25 @@ $(document).ready(function () {
 
   $("#tweet-form").on("submit", (evt) => {
     evt.preventDefault();
+    $(".error-box").hide();
 
     const formInput = $("#tweet-text").val();
     console.log(formInput);
     if (!formInput.trim()) {
-      alert("Please enter text");
-      return false;
+      $(".error-box").text("Please enter your text");
+      $(".error-box").slideDown();
+      return;
     }
     if (formInput.length > 140) {
-      alert("Text is too long");
+      $(".error-box").text("Tweet is too long.");
+      $(".error-box").slideDown();
+      return;
     } else {
       const tweet = $(evt.target).serialize();
+
       $.post("/tweets/", tweet, function (data) {
-        console.log("test wtetet");
+        $(".counter").val(140);
+        $("#tweet-text").val("");
         loadTweets();
       });
     }
