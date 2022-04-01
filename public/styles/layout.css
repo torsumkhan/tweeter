@@ -23,11 +23,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
 
 .main-header {
   margin-top: 0px;
@@ -60,7 +55,7 @@ section {
 }
 
 .tweet{
-  word-wrap: break-word;
+  word-wrap:break-word;
 }
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
